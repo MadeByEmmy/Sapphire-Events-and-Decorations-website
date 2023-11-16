@@ -209,19 +209,6 @@ p {
 * ? styling the ceo writeup
 **/
 
-.ceo-writeup {
-    display: flex;
-    column-gap: 50px;
-    text-align: justify;
-    margin: 20px 0;
-}
-
-.ceo-writeup img {
-    width: 350px;
-    border-radius: 20px;
-    border: 1px solid #b4852c;
-}
-
 
 /**
 * ? styling the image slider
@@ -361,13 +348,6 @@ p {
     }
     .business-description h1 {
         font-size: 30px;
-    }
-    .ceo-writeup {
-        display: flex;
-        flex-direction: column;
-    }
-    .ceo-writeup img {
-        width: 100%;
     }
     .servicerender {
         display: flex;
