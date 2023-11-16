@@ -11,24 +11,10 @@
     background: #f9f4f1;
 }
 
-.aboutus-writeup p {
-    margin: 0 10px;
-}
 
 
 .aboutus-writeup img {
-    width: 500px;
-}
-
-.aboutus-images {
-    display: flex;
-    gap: 30px;
-    margin-top: 30px;
-    justify-content: space-evenly;
-}
-
-.aboutus-images img {
-    width: 300px;
+    width: 400px;
 }
 
 .aboutus-subtitle-heading h1 {
