@@ -1,0 +1,89 @@
+.heading {
+    margin: 50px 0 20px 20px;
+}
+
+.container {
+    margin: 100px  0;
+}
+
+.container .accordion-wrapper {
+    padding: 0 20px;
+}
+
+.container .accordion {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+/**
+* !styling the onclick - active class
+**/
+
+.container .accordion.active .accordion-heading {
+    background: #f3f1ae;
+    color: black;
+}
+
+.container .accordion.active .accordion-heading i {
+    color: #fff;
+    transform: rotate(180deg);
+    transition: transform 0.2s 0.1s;
+}
+
+.container .accordion.active .accordion-content {
+    display: block;
+}
+
+.container .accordion-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background: #fff;
+    border: 2px solid #333;
+    padding: 2px 10px;
+}
+
+.container .accordion-heading h3 {
+    font-size: 15px;
+}
+
+.container .accordion-content {
+    padding: 15px 20px;
+    border: 2px solid #333;
+    font-size: 18px;
+    background-color: #fff;
+    border-top: 0;
+    display: none;
+    animation: animate 0.2s linear backwards;
+    transform-origin: top;
+}
+
+/**
+* ?Using keyframe Animation
+**/
+
+@keyframes animate {
+    0% {
+        transform: scaleY(0);
+    }
+}
+
+@media (max-width: 767px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .summary-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .summary-nav {
+        margin-top: -25px;
+    }
+    .summary-navmenu {
+        margin-top: -25px;
+    }
+}

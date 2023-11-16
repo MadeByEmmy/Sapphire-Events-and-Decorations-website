@@ -1,0 +1,410 @@
+/**
+*! changing default style of the browser
+**/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body {
+    min-height: 100vh;
+}
+
+nav {
+    background-color: black;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 100px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #b4852c; /** nav color */
+    font-weight: 70px;
+    text-transform: uppercase;
+}
+
+
+.active-page {
+    margin-top: -20px;
+    border-bottom: 2px solid #fc9d4a;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: white;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+    font-weight: bold;
+}
+
+.menubtn {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menubtn {
+        display: block;
+    }
+}
+
+@media(max-width: 767px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .sidebar {
+        width: 100%;
+    }
+}
+
+
+.landingpage {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+/**
+* ? styling the consultation
+**/
+
+.business-description {
+    width: 100%;
+    background-color: #f9f4f1;
+    margin: 50px 0;
+    text-align: justify;
+}
+
+
+.business-description-writeup {
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.business-description-image {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 1024px) {
+    .business-description-image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+.business-description-image img {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin: 10px 0;
+    border: 1px solid #b4852c;
+}
+
+
+.button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #b4852c;
+    padding: 6px;
+    margin: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: jost,sans;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: transparent;
+    transform: scale(0.90);
+}
+
+h1{
+    color: #b4852c;
+    text-align: justify;
+    font-family : NewYork;
+    font-size: 50px;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: start;
+}
+
+
+h2{
+    color: #b4852c;
+    text-align: justify;
+    font-family : NewYork;
+    font-size: 20px;
+    vertical-align: baseline;
+    word-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-align: start;
+    text-indent: 0px;
+}
+
+p {
+    font-family: jost,sans;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: normal;
+    word-spacing: 0;
+    text-decoration: solid rgb(33, 24,21);
+    text-align: justify;
+    text-indent: 0px;
+}
+
+
+/**
+* ? styling the ceo writeup
+**/
+
+.ceo-writeup {
+    display: flex;
+    column-gap: 50px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.ceo-writeup img {
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid #b4852c;
+}
+
+
+/**
+* ? styling the image slider
+**/
+
+.container-swiper {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper, .swiper-slide img, .swiper-wrapper  {
+    width: 500px;
+    height: 500px;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #f3f1ae;
+    width: 10px;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background-color: #f3f1ae;
+}
+
+/**
+* ? styling the services render
+**/
+
+.servicerender {
+    display: flex;
+    margin: 30px 0;
+    column-gap: 30px;
+}
+
+.services {
+    text-align: justify;
+}
+
+/**
+* ? styling the review section
+**/
+#testimonial_area {
+    padding: 1px 0;
+}
+
+.box-area {
+    padding: 30px;
+    position: relative;
+    display: block;
+    background: #f9f4f1;
+    /**color: #000;**/
+    box-shadow: rgba(0,0,0,0.35) 0 5px 5px;
+    margin: 60px 7px;
+}
+
+
+.box-area h5 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #b4852c;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.box-area p {
+    text-align: justify;
+    word-spacing: normal;
+}
+
+.box-area .img-area {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    bottom: 0;
+    margin: 0 auto;
+    right: 0;
+    z-index: 1;
+    border-radius: 40%;
+}
+
+.box-area .img-area img {
+    width: 100px;
+    height: auto;
+    border-radius: 90px;
+    border: 6px solid #f9f4f1;
+}
+
+
+/**
+* ? styling the footer section
+**/
+
+.summary-main {
+    background-color: #f9f4f1;
+    display: flex;
+    gap: 80px;
+}
+
+.summary-main ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+
+.summary-main a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+.summary-main li {
+    margin: 0 10px;
+    text-wrap: nowrap;
+}
+
+.summary-nav, .summary-navmenu {
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .business-description-image{
+        display: flex;
+        flex-direction: column;
+    }
+    .business-description-image img {
+        width: 100%;
+    }
+    .business-description h1 {
+        font-size: 30px;
+    }
+    .ceo-writeup {
+        display: flex;
+        flex-direction: column;
+    }
+    .ceo-writeup img {
+        width: 100%;
+    }
+    .servicerender {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .container-swiper {
+        width: 100%;
+    }
+    .swiper-slide img {
+        width: 100%;
+    }
+    .summary-main {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .summary-nav {
+        margin-top: -30px;
+    }
+    .summary-navmenu {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .summary-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .summary-nav {
+        margin-top: -25px;
+    }
+    .summary-navmenu {
+        margin-top: -25px;
+    }
+}
+
+
+
+
