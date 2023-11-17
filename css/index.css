@@ -242,6 +242,11 @@ p {
     text-align: justify;
 }
 
+.services li {
+    font-size: 18px;
+    list-style: none;
+}
+
 /**
 * ? styling the review section
 **/
@@ -271,7 +276,7 @@ p {
 }
 
 .box-area p {
-    text-align: justify;
+    text-align: center;
     word-spacing: normal;
 }
 
