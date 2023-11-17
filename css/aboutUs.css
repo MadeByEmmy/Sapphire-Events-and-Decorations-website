@@ -1,6 +1,7 @@
 .aboutus-header h1 {
     margin-top: 40px;
     font-size: 20px;
+    color: #b4852c;
 }
 
 .aboutus-writeup {
@@ -18,7 +19,8 @@
 .aboutus-subtitle-heading h1 {
     text-align: center;
     margin: 50px 0;
-    font-size: 50px;
+    font-size: 30px;
+    color: #b4852c;
 }
 
 .p1 p {
