@@ -200,52 +200,29 @@ p {
 }
 
 /**
-* ? styling the image slider
+* ? styling the services FAQ
 **/
-
-.container-swiper {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-left: 15px;
-}
-
-.swiper, .swiper-slide img, .swiper-wrapper  {
-    width: 500px;
-    height: 500px;
-}
-
-.swiper .swiper-button-prev, .swiper .swiper-button-next {
-    color: #f3f1ae;
-    width: 10px;
-}
-
-.swiper .swiper-pagination-bullet-active {
-    background-color: #f3f1ae;
-}
-
-/**
-* ? styling the services render
-**/
-
-.servicerender {
-    display: flex;
-    margin: 30px 0;
-    column-gap: 30px;
-    background: #f9f4f1;
-}
 
 .services {
-    text-align: justify;
+    display: flex;
+    width: 100%;
 }
 
-.services li {
-    font-size: 18px;
-    list-style: none;
+.services img {
+    width: 50%;
 }
+
+.faqs-container h2{
+    padding: 4px 32px;
+    font-size: 28px;
+}
+
+.faqs-header {
+    display: flex;
+    background-color: green;
+}
+
+
 
 /**
 * ? styling the review section
