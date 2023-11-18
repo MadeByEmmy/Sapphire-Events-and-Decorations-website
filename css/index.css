@@ -170,6 +170,13 @@ nav li:first-child {
     
 }
 
+@media (max-width: 1024px) {
+    .ceoprofile{
+        margin-top: 20px;
+    }
+    
+}
+
 /**
 * ? styling the image slider
 **/
