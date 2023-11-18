@@ -183,6 +183,13 @@ nav li:first-child {
 
 .servicerender {
     display: flex;
+    margin: 50px 0;
+    gap: 20px;
+    background: #f9f4f1;
+}
+
+.services-des {
+    padding: 10px;
 }
 
 .container-swiper {

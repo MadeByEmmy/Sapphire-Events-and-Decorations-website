@@ -1,11 +1,14 @@
-
-
+/**
 .container-swiper{
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.services-des{
+    padding: 10px 10px;
 }
 
 .swiper, .swiper-slide img, .swiper-wrapper  {
@@ -43,3 +46,4 @@
         margin-top: -25px;
     }
 }
+**/

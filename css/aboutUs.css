@@ -12,8 +12,9 @@
     background: #f9f4f1;
 }
 
-.aboutus p {
+.about-us p {
     text-align: center;
+    padding: 10px 10px;
 }
 
 .aboutus-writeup img {
