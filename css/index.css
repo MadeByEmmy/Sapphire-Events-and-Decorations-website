@@ -410,32 +410,18 @@ p {
     .letschatimage img {
         width: 100%;
     }
-    .letschat-title {
-        margin-top: 10px;
-        padding: 0 10px;
-    }
     .letschat-title h4 {
-        margin-top: 10px;
         font-size: 40px;
     }
 }
 
 @media (max-width: 1024px) {
-    .letschat {
-        display: flex;
-        flex-direction: row;
-    }
-    .letschatimage img {
-        width: 100%;
-    }
     .letschat-title {
-        margin-top: 120px;
-        padding: 0 10px;
-    }
-    .letschat-title h4 {
-        font-size: 40px;
+        margin-top: 50px;
+        padding: 0 15px;
     }
 }
+
 /**
 * ?Using keyframe Animation
 **/
