@@ -28,16 +28,31 @@
     color: #b4852c;
 }
 
-.p1 p {
-    text-align: justify;
-    font-size: 30px;
-    margin: 0 10px;
+.aboutusreview {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
 }
 
-.p2 p {
+.aboutusreview img {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.aboutusreview i {
+    font-size: 80px;
+    color: #b4852c;
+}
+
+.fa-quote-right {
+    margin-top: 295px;
+}
+
+.aboutusreview p {
     text-align: justify;
-    margin: 10px 10px;
-    margin-bottom: 40px;
+    padding: 0 30px;
+    margin: 50px 0;
 }
 
 @media(max-width: 767px) {
@@ -59,12 +74,33 @@
     .aboutus-subtitle-heading h1 {
         font-size: 30px;
     }
-    .p1,
-    .p2 {
-        margin: 20px 0;
+    .aboutusreview {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutusreview img {
+        width: 90%;
+    }
+    .fa-quote-left {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .fa-quote-right {
+        margin-top: 40px;
+        margin-left: 30%;
     }
     .summary-navmenu ul li a {
         font-size: 15px;
+    }
+    .letschat {
+        display: flex;
+        flex-direction: column;
+    }
+    .letschatimage img {
+        width: 100%;
+    }
+    .letschat-title h4 {
+        font-size: 40px;
     }
 }
 
@@ -79,6 +115,25 @@
     .aboutus-images {
         display: flex;
         flex-direction: column;
+    }
+    .aboutusreview {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutusreview img {
+        width: 90%;
+    }
+    .fa-quote-left {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .fa-quote-right {
+        margin-top: 40px;
+        margin-left: 85%;
+    }
+    .letschat-title {
+        margin-top: 50px;
+        padding: 0 15px;
     }
     .summary-main {
         display: flex;
