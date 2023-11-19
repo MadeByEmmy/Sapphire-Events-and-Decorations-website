@@ -69,6 +69,50 @@
     }
 }
 
+/**
+* !styling the lets chat
+**/
+
+.letschat {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    background: #f9f4f1;
+}
+
+.letschatimage img {
+    width: 300px;
+}
+
+.letschat-title {
+    margin-top: 150px;
+}
+
+.letschat-title h4 {
+    font-size: 50px;
+}
+
+@media (max-width: 767px) {
+    .letschat {
+        display: flex;
+        flex-direction: column;
+    }
+    .letschatimage img {
+        width: 100%;
+    }
+    .letschat-title h4 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .letschat-title {
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+}
+
+
 @media (max-width: 767px) {
     .heading {
         font-size: 20px;

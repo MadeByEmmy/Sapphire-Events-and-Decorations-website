@@ -349,6 +349,16 @@ p {
     transform-origin: top;
 }
 
+/**
+* ?Using keyframe Animation
+**/
+
+@keyframes animate {
+    0% {
+        transform: scaleY(0);
+    }
+}
+
 @media (max-width: 767px) {
     .services {
         display: flex;
@@ -422,15 +432,7 @@ p {
     }
 }
 
-/**
-* ?Using keyframe Animation
-**/
 
-@keyframes animate {
-    0% {
-        transform: scaleY(0);
-    }
-}
 /**
 * ? styling the review section
 **/
