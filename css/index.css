@@ -486,6 +486,9 @@ p {
 }
 
 @media (max-width: 767px) {
+    .business-description-writeup h2,p{
+        text-align: center;
+    }
     .business-description-image{
         display: flex;
         flex-direction: column;
