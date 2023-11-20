@@ -177,42 +177,6 @@ nav li:first-child {
     
 }
 
-/**
-* ? styling the image slider
-**/
-
-.servicerender {
-    display: flex;
-    margin: 50px 0;
-    gap: 20px;
-    background: #f9f4f1;
-}
-
-.services-des {
-    padding: 10px;
-}
-
-.container-swiper {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.swiper, .swiper-slide img, .swiper-wrapper  {
-    width: 500px;
-    height: 500px;
-}
-
-.swiper .swiper-button-prev, .swiper .swiper-button-next {
-    color: #f3f1ae;
-    width: 10px;
-}
-
-.swiper .swiper-pagination-bullet-active {
-    background-color: #f3f1ae;
-}
-
 .business-description-image img {
     border-radius: 10px;
     width: 250px;
@@ -244,7 +208,6 @@ nav li:first-child {
 h2{
     color: #b4852c;
     text-align: justify;
-    font-family : NewYork;
     font-size: 20px;
     vertical-align: baseline;
     word-spacing: 0px;
@@ -257,14 +220,11 @@ h2{
 }
 
 p {
-    font-family: jost,sans;
-    font-size: 18px;
-    line-height: 27px;
-    letter-spacing: normal;
-    word-spacing: 0;
-    text-decoration: solid rgb(33, 24,21);
     text-align: justify;
     text-indent: 0px;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 35px;
 }
 
 /**
@@ -560,6 +520,9 @@ p {
     }
     .summary-navmenu {
         margin-top: -30px;
+    }
+    .summary-main-write p {
+        text-align: center;
     }
 }
 
