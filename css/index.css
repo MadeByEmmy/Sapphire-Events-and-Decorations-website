@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
 /**
 *! changing default style of the browser
 **/
@@ -213,6 +215,7 @@ h2{
     word-spacing: 0px;
     font-weight: 400;
     font-style: normal;
+    font-family: 'Segoe UI', sans-serif;
     font-variant: normal;
     text-decoration: none solid rgb(0, 0, 0);
     text-align: start;
@@ -220,6 +223,7 @@ h2{
 }
 
 p {
+    font-family: 'Segoe UI', sans-serif;
     text-align: justify;
     text-indent: 0px;
     font-size: 18px;
