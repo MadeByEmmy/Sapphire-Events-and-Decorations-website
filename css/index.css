@@ -298,7 +298,8 @@ p {
 }
 
 .container-service .accordion-heading h3 {
-    font-size: 15px;
+    font-size: 18px;
+    font-family: 'Segoe UI', sans-serif;
     margin-bottom: 10px;
 }
 
@@ -510,12 +511,9 @@ p {
     .services li {
         list-style: none;
     }
-    .container-swiper {
-        width: 100%;
-        margin: 0;
-    }
-    .swiper-slide img {
-        width: 100%;
+    .container-service .accordion-heading h3 {
+        font-size: 15px;
+        word-wrap: break-word;
     }
     .summary-main {
         display: flex;
