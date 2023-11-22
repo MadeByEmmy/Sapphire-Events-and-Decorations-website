@@ -23,6 +23,9 @@ $(".testimonial_slider_area").owlCarousel({
     margin:30,
     dots:false,
     responsive: {
+        200:{
+            items:1
+        },
         320:{
             items:1
         },
