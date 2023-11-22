@@ -173,6 +173,13 @@ nav li:first-child {
 }
 
 @media (max-width: 1024px) {
+    .ceo-writeup {
+        display: flex;
+        flex-direction: column;
+    }
+    .ceoimage img {
+        width: 100%;
+    }
     .ceoprofile{
         margin-top: 20px;
     }
