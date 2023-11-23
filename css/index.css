@@ -16,6 +16,7 @@ body {
 
 nav {
     background-color: black;
+    overflow: hidden;
 }
 
 nav ul {
