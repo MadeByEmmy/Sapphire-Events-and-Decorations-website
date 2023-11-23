@@ -1,0 +1,95 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
+.contact {
+    min-height: 100vh;
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.contact > div {
+    background: gold;
+    padding: 2.5em;
+    border-radius: 10px;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+}
+
+.contact h1 {
+    font-size: 20px;
+}
+
+.contact p {
+    text-align: center;
+    color: black;
+    margin: 20px 5px;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 35px;
+}
+
+.contact form {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.contact input, 
+.contact textarea {
+    border: none;
+    padding: 0.8em;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0.5em 0 1em 0;
+    font-size: 1.1em;
+    background: #eee;
+    color: black; /**color for the input**/
+}
+
+.contact label {
+    color: black;
+}
+
+.contact textarea {
+    resize: none;
+    height: 8em;
+    font-family: sans-serif;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: none;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder {
+    color: #bababa;
+}
+
+.contact button {
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    padding: 0.8em;
+    background-color: #ff742e;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.contact button:hover {
+    background-color: silver;
+}
+
+@media screen and (max-width: 500px) {
+    .contact {
+        font-size: 14px;
+        width: 100%;
+    }
+    .contact label {
+        color: black;
+        font-size: 20px;
+    }
+}
