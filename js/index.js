@@ -9,7 +9,7 @@ function hideSidebar(){
 
 let accordions = document.querySelectorAll('.accordion-wrapper .accordion')
 accordions.forEach((acco)=>{
-    acco.onclick = () =>{
+    acco.onclick = () => {
         accordions.forEach((subcontent) =>{
             subcontent.classList.remove("active");
         })
@@ -21,7 +21,7 @@ $(".testimonial_slider_area").owlCarousel({
     loop:true,
     items:3,
     margin:30,
-    dots:false,
+    dots:true,
     responsive: {
         200:{
             items:1
@@ -39,4 +39,4 @@ $(".testimonial_slider_area").owlCarousel({
             items:3
         }
     }
-})
+});
