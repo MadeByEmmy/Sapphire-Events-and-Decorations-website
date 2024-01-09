@@ -17,6 +17,9 @@ body {
 nav {
     background-color: black;
     overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 nav ul {
@@ -411,6 +414,7 @@ p {
 **/
 #testimonial_area {
     padding: 1px 0;
+    
 }
 
 .box-area {
