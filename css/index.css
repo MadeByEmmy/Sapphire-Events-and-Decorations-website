@@ -235,19 +235,10 @@ nav li:first-child {
 }
 
 
-h2{
-    color: #b4852c;
-    text-align: justify;
+h1{
+    margin-top: 50px;
     font-size: 20px;
-    vertical-align: baseline;
-    word-spacing: 0px;
-    font-weight: 400;
-    font-style: normal;
-    font-family: 'Segoe UI', sans-serif;
-    font-variant: normal;
-    text-decoration: none solid rgb(0, 0, 0);
-    text-align: start;
-    text-indent: 0px;
+    color: #b4852c;
 }
 
 p {

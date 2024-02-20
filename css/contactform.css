@@ -11,10 +11,11 @@
     background: #f9f4f1;
     padding: 2.5em;
     border-radius: 10px;
-    box-shadow: 0 0 2em rgba(0, 0, 0, 0.3);
+    
 }
 
 .contact h1 {
+    margin-top: -35px;
     font-size: 20px;
     color: #bf9347;
 }
@@ -33,6 +34,9 @@
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 .contact input, 
