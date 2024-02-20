@@ -11,22 +11,7 @@
 } 
 
 
-body {
-    font-family: "Jost", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    line-height: 27px;
-    letter-spacing: normal;
-    word-spacing: 0px;
-    color: #211815;
-    color: rgb(33, 24, 21);
-    background-color: #000000;
-    background-color: rgba(0, 0, 0, 0);
-    font-weight: 300;
-    font-style: normal;
-    font-variant: normal;
-}
+
 
 nav {
     background-color: black;
@@ -256,6 +241,7 @@ p {
     font-weight: 300;
     font-style: normal;
     font-variant: normal;
+    font-size: 18px;
 }
 
 /**
@@ -326,8 +312,7 @@ p {
 
 .container-service .accordion-heading h3 {
     font-size: 18px;
-    font-family: 'Segoe UI', sans-serif;
-    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .container-service .accordion-content {
