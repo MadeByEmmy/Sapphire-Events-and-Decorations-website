@@ -225,6 +225,7 @@ nav li:first-child {
     font-family: jost,sans;
     font-size: 18px;
     line-height: 27px;
+    border-radius: 5px;
 }
 
 .button:hover,
