@@ -1,6 +1,7 @@
 //Getting all the needed elements from the DOM (contactform.html)
 
-const contactForm = document.querySelector("#contact-form");
+const contactForm = document.
+querySelector("#contact-form");
 
 const submitBtn = document.querySelector(".submit-btn");
 
