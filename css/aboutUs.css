@@ -106,7 +106,8 @@
         width: 100%;
     }
     .letschat-title h4 {
-        font-size: 40px;
+        font-size: xx-large;
+        margin: 0 10px 2px 10px;
     }
 }
 
