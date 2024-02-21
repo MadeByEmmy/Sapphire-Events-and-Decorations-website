@@ -65,6 +65,17 @@
 }
 
 /**
+* !styling the onclick - active class
+**/
+
+.contact {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+}
+
+/**
 * ?Using keyframe Animation
 **/
 
