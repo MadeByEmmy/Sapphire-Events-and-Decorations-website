@@ -13,7 +13,7 @@ const phonenumInput = document.querySelector("#user_phonenum");
 
 const eventdateInput = document.querySelector("#user_eventdate");
 
-const eventvenueInput = document.querySelector("#user_eventvenue");
+const eventtypeInput = document.querySelector("#user_eventtype");
 
 const eventlocationInput = document.querySelector("#user_eventlocation");
 
@@ -48,7 +48,7 @@ contactForm.addEventListener("submit", e => {
         email: emailInput.value,
         phone: phonenumInput.value,
         eventdate: eventdateInput.value,
-        eventvenue: eventvenueInput.value,
+        eventtype: eventtypeInput.value,
         eventlocation: eventlocationInput.value,
         eventguest: eventguestInput.value,
         eventguestbudget: eventguestbudgetInput.value,
@@ -68,7 +68,7 @@ contactForm.addEventListener("submit", e => {
             emailInput.value = "";
             phonenumInput.value = "";
             eventdateInput.value = "";
-            eventvenueInput.value = "";
+            eventtypeInput.value = "";
             eventlocationInput.value = "";
             eventguestInput.value = "";
             eventguestbudgetInput.value = "";
