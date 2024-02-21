@@ -131,6 +131,15 @@ nav li:first-child {
     justify-content: space-evenly;
 }
 
+.business-description-image img {
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+    border: 1px solid #b4852c;
+}
+
+
 @media (max-width: 1024px) {
     .business-description-image{
         display: flex;
@@ -189,14 +198,6 @@ nav li:first-child {
         margin-top: 20px;
     }
     
-}
-
-.business-description-image img {
-    border-radius: 10px;
-    width: 100%;
-    height: 250px;
-    margin: 10px 0;
-    border: 1px solid #b4852c;
 }
 
 
