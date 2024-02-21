@@ -60,7 +60,7 @@ contactForm.addEventListener("submit", e => {
     emailjs.send(serviceID, templateID, inputFields)
         .then(() => {
             // change button text
-            submitBtn.innerHTML = "Message Sent Successfully";
+            submitBtn.innerHTML = "Message sent successfully, we would get back to you shortly";
 
             // clear out the input fields
 

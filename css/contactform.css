@@ -85,7 +85,7 @@
 }
 
 .contact button:hover {
-    background-color: black;
+    background-color: gray;
 }
 
 @media screen and (max-width: 500px) {
