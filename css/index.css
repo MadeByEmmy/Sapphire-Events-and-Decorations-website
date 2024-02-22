@@ -137,10 +137,14 @@ nav li:first-child {
 }
 
 @media (max-width: 1024px) {
-    .business-description-image{
+    .business-description-image {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        gap: 10px;
+      }
+    
+    .business-description-image div {
+        flex: 0 0 calc(50% - 10px); /* Each image container takes up 50% of the width with a gap of 10px */
     }
 }
 
