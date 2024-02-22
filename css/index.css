@@ -81,21 +81,18 @@ nav li:first-child {
     display: none;
 }
 
-@media(max-width: 800px) {
-    .hideOnMobile{
-        display: none;
-    }
-    .menubtn {
-        display: block;
-    }
-}
-
-@media(max-width: 767px) {
-    .hideOnMobile{
-        display: none;
-    }
+@media only screen and (max-width: 767px) {
     .sidebar {
-        width: 100%;
+        display: block; /* Display the sidebar on smaller screens */
+        width: 100%; /* Set the width to 100% to take up the full width of the screen */
+    }
+
+    .sidebar li {
+        padding-bottom: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .sidebar a {
+        font-size: 14px; /* Adjust font size for smaller screens */
     }
 }
 
