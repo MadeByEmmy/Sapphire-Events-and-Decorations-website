@@ -122,19 +122,23 @@ nav li:first-child {
 .business-description-image {
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 10px;
     justify-content: space-between;
 }
 
 .business-description-image div {
-    flex: 0 0 calc(25% - 10px); /* Each image container takes up 25% of the width with a gap of 10px */
+    flex: 0 0 calc(25% - 10px); /* Each image container takes up 50% of the width with a gap of 10px */
+    height: auto; /* Allow images to adjust their height while maintaining aspect ratio */
 }
 
 .business-description-image img {
-    width: 100%;
+    width: 100%; /* Make sure images fill their container */
+    height: 100%; /* Make sure images fill their container */
+    object-fit: fill; /* Ensure the image covers the container while maintaining aspect ratio */
     border-radius: 5px;
     border: 1px solid #b4852c;
 }
+
 
 @media (max-width: 1024px) {
     .business-description-image {
