@@ -79,7 +79,7 @@ nav li:first-child {
     display: none;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1024px) {
     .hideOnMobile{
         display: none;
     }
@@ -93,7 +93,16 @@ nav li:first-child {
         display: none;
     }
     .sidebar {
-        width: 50%;
+        display: block; /* Display the sidebar on smaller screens */
+        width: 100%; /* Set the width to 100% to take up the full width of the screen */
+    }
+
+    .sidebar li {
+        padding-bottom: 15px; /* Adjust padding for smaller screens */
+    }
+
+    .sidebar a {
+        font-size: 14px; /* Adjust font size for smaller screens */
     }
 }
 
