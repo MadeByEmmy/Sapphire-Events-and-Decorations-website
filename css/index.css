@@ -10,9 +10,6 @@
     box-sizing: border-box;
 } 
 
-
-
-
 nav {
     background-color: black;
     overflow: hidden;
@@ -29,8 +26,6 @@ nav ul {
     align-items: center;
 }
 
-
-
 nav a {
     height: 100%;
     padding: 0 10px;
@@ -42,7 +37,6 @@ nav a {
     font-weight: 70px;
     text-transform: uppercase;
 }
-
 
 .active-page {
     padding-bottom: 10px;
