@@ -26,6 +26,7 @@ nav ul {
     align-items: center;
 }
 
+
 nav a {
     height: 100%;
     padding: 0 10px;
@@ -37,6 +38,7 @@ nav a {
     font-weight: 70px;
     text-transform: uppercase;
 }
+
 
 .active-page {
     padding-bottom: 10px;
@@ -79,7 +81,7 @@ nav li:first-child {
     display: none;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 800px) {
     .hideOnMobile{
         display: none;
     }
@@ -93,22 +95,7 @@ nav li:first-child {
         display: none;
     }
     .sidebar {
-        width: 50%;
-    }
-}
-
-@media only screen and (max-device-width: 414px) and (orientation: portrait) {
-    .sidebar {
-        display: block; /* Display the sidebar on smaller screens */
-        width: 100%; /* Set the width to 100% to take up the full width of the screen */
-    }
-
-    .sidebar li {
-        padding-bottom: 15px; /* Adjust padding for smaller screens */
-    }
-
-    .sidebar a {
-        font-size: 14px; /* Adjust font size for smaller screens */
+        width: 100%;
     }
 }
 
