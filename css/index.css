@@ -55,9 +55,7 @@ nav li:first-child {
     padding-top: 40px;
     top: 0;
     right: 0;
-    
     width: 250px;
-    
     background-color: white;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
@@ -81,7 +79,7 @@ nav li:first-child {
     display: none;
 }
 
-@media(max-width: 1020px) {
+@media(max-width: 1024px) {
     .hideOnMobile{
         display: none;
     }
@@ -123,18 +121,20 @@ nav li:first-child {
 
 .business-description-image {
     display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.business-description-image div {
+    flex: 0 0 calc(25% - 10px); /* Each image container takes up 25% of the width with a gap of 10px */
 }
 
 .business-description-image img {
-    border-radius: 10px;
     width: 100%;
-    height: 250px;
-    margin: 10px 0;
-    border: 1px solid #b4852c;
+    border-radius: 5px;
+    border: 1px solid gold;
 }
-
 
 @media (max-width: 1024px) {
     .business-description-image{
@@ -519,9 +519,10 @@ p {
     .business-description-image{
         display: flex;
         flex-direction: column;
+        gap: 10px;
     }
     .business-description-image img {
-        width: 100%;
+        max-width: 100%;
     }
     .business-description h1 {
         font-size: 30px;
