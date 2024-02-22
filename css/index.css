@@ -48,9 +48,8 @@ nav li:first-child {
     margin-right: auto;
 }
 
-.sidebar {
+.sidebar { /**/
     position: fixed;
-    padding-top: 40px;
     top: 0;
     right: 0;
     height: 100vh;
