@@ -52,50 +52,37 @@ nav li:first-child {
 
 .sidebar {
     position: fixed;
-    padding-top: 40px;
     top: 0;
-    right: 0;
-    height: 100vh;
+    left: -250px; /* Start off-screen */
     width: 250px;
-    z-index: 999;
-    background-color: white;
-    backdrop-filter: blur(10px);
-    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    height: 100%;
+    background-color: #f5f5f5;
+    transition: left 0.3s ease; /* Smooth transition for animation */
+}
+
+.sidebar.show {
+    left: 0; /* Show the sidebar */
 }
 
 .sidebar li {
-    width: 100%;
-    padding-bottom: 30px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add a border between menu items */
+}
+
+.sidebar li:last-child {
+    border-bottom: none; /* Remove border from the last menu item */
 }
 
 .sidebar a {
-    width: 100%;
+    text-decoration: none;
+    color: #333;
     font-weight: bold;
 }
 
-.menubtn {
-    display: none;
-}
-
-@media(max-width: 800px) {
-    .hideOnMobile{
-        display: none;
-    }
-    .menubtn {
-        display: block;
-    }
-}
-
-@media(max-width: 767px) {
-    .hideOnMobile{
-        display: none;
-    }
+/* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
     .sidebar {
-        width: 100%;
+        left: 0; /* Always show the sidebar on smaller screens */
     }
 }
 
