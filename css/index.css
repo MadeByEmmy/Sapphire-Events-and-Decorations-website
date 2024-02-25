@@ -143,7 +143,6 @@ nav li:first-child {
     .business-description-image img {
         width: 100%;
     }
-    
     .business-description-image div {
     width: calc(50% - 5px); /* Each image container takes up 50% of the width with a gap of 10px between them */
     }
@@ -529,6 +528,9 @@ p {
     .business-description-image img {
         width: 100%;
     }
+    .business-description-image div {
+        width: calc(100% - 5px); /* Each image container takes up 50% of the width with a gap of 10px between them */
+        }
     .business-description h1 {
         font-size: 30px;
     }
