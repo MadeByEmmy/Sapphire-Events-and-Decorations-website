@@ -22,6 +22,10 @@ a {
     width: 500px;
 }
 
+.portfoliocartlogue p {
+    font-size: 50px;
+    margin: auto auto;
+}
 
 .ballondeco a {
     display: flex;
@@ -88,8 +92,18 @@ a {
         flex-direction: column;
         gap: 30px;
     }
+    .kiddiesdeco a {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     .portfoliocartlogue img {
         width: 100%;
+    }
+    .portfoliocartlogue p {
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
     }
 }
 
@@ -108,7 +122,17 @@ a {
         flex-direction: column;
         gap: 30px;
     }
+    .kiddiesdeco a {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     .portfoliocartlogue img {
         width: 100%;
+    }
+    .portfoliocartlogue p {
+        font-size: 40px;
+        font-weight: 400;
+        margin-bottom: 40px;
     }
 }
