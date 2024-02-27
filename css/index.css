@@ -125,28 +125,9 @@ nav li:first-child {
     gap: 5px;
 }
 
-.business-description-image img {
-    width: 295px;
-    aspect-ratio: 1/1;
-    border-radius: 5px;
-    border: 1px solid #b4852c;
-}
 
 
 
-@media (max-width: 1024px) {
-    .business-description-image {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    .business-description-image img {
-        width: 100%;
-    }
-    .business-description-image div {
-    width: calc(50% - 5px); /* Each image container takes up 50% of the width with a gap of 10px between them */
-    }
-}
 
 /**
 * ? styling the ceo writeup
@@ -525,12 +506,6 @@ p {
         flex-direction: column;
         gap: 10px;
     }
-    .business-description-image img {
-        width: 100%;
-    }
-    .business-description-image div {
-        width: calc(100% - 5px); /* Each image container takes up 50% of the width with a gap of 10px between them */
-        }
     .business-description h1 {
         font-size: 30px;
     }
