@@ -23,8 +23,8 @@ a {
 }
 
 .portfoliocartlogue p {
-    font-size: 50px;
-    margin: auto auto;
+    font-size: 25px;
+    margin: auto;
 }
 
 .ballondeco a {
@@ -87,11 +87,7 @@ a {
         flex-direction: column;
         gap: 30px;
     }
-    .eventdeco a {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
+
     .kiddiesdeco a {
         display: flex;
         flex-direction: column;
@@ -99,9 +95,6 @@ a {
     }
     .portfoliocartlogue img {
         width: 100%;
-    }
-    .portfoliocartlogue p {
-        font-size: 18px;
     }
 }
 
@@ -127,10 +120,5 @@ a {
     }
     .portfoliocartlogue img {
         width: 100%;
-    }
-    .portfoliocartlogue p {
-        font-size: 40px;
-        font-weight: 400;
-        margin-bottom: 40px;
     }
 }
