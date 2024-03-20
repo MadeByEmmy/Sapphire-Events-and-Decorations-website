@@ -44,6 +44,12 @@ a {
     gap: 30px;
 }
 
+.proposaldeco a {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+}
+
 /**
 * !styling the lets chat
 **/
