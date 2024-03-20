@@ -107,6 +107,10 @@ a p:focus {
         display: flex;
         flex-direction: column;
     }
+    .ballondeco, .eventdeco, .kiddiesdeco, 
+    .proposaldeco {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 1024px) {
