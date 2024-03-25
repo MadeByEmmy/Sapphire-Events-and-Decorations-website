@@ -432,6 +432,13 @@ p {
     
 }
 
+.arrow  {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
 .box-area {
     padding: 30px;
     position: relative;

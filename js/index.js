@@ -19,6 +19,7 @@ accordions.forEach((acco)=>{
 
 $(".testimonial_slider_area").owlCarousel({
     loop:true,
+    autoplay:true,
     items:3,
     margin:30,
     dots:true,
