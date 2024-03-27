@@ -432,7 +432,7 @@ p {
     
 }
 
-.box-area {
+.box-area {  /**/
     padding: 30px;
     position: relative;
     display: block;
