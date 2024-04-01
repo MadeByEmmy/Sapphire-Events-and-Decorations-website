@@ -443,7 +443,7 @@ p {
 }
 
 
-.box-area h5 {
+.box-area h5 { /**/
     font-size: 16px;
     font-weight: 700;
     color: #b4852c;
