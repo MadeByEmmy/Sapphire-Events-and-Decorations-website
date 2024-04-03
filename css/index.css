@@ -453,7 +453,7 @@ p {
     letter-spacing: 1px;
 }
 
-.box-area p { /**/
+.box-area p {
     text-align: center;
     word-spacing: normal;
 }
