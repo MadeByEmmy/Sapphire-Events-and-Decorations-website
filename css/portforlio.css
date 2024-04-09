@@ -10,13 +10,6 @@ a p:focus {
     padding-bottom: 10px;
 }
 
-.center {  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
 .portfoliocartlogue { 
     margin-top: 50px;
     display: flex;
