@@ -207,8 +207,8 @@ nav li:first-child {
     text-decoration: none;
     color: black;
     border: 1px solid #b4852c;
-    padding: 15px;
-    margin: 10px 10px;
+    padding: 8px;
+    margin: 10px 0 10px 0;
     cursor: pointer;
     display: inline-block;
     font-family: jost,sans;
