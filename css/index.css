@@ -505,6 +505,21 @@ p {
     border-radius: 5px;
 }
 
+.summary-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+}
+
+.socialmedia {
+    margin-top: -15px;
+}
+
+.social-icons {
+    margin-left: -15px;
+}
+
 .summary-main ul {
     display: flex;
     justify-content: space-evenly;
@@ -582,6 +597,10 @@ p {
     .summary-main {
         display: flex;
         flex-direction: column;
+    }
+    .socialmedia {
+        text-align: center;
+        margin-bottom: 10px;
     }
     .summary-nav {
         margin-top: -25px;
